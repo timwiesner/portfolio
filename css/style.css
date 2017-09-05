@@ -1,3 +1,28 @@
 * {
 	box-sizing: border-box;
 }
+
+.container {
+	max-width: 95%;
+	margin: auto;
+}
+
+.headings {
+	float: right;
+	overflow: auto;
+}
+
+.content img {
+	max-width: 100%;
+}
+
+.portfolio {
+	display: flex;
+}
+
+.featured img {
+	margin: auto;
+	max-width: 100%;
+}
+
+
