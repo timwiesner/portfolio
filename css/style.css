@@ -1,15 +1,5 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
-}
-
-body {
-	max-width: 80%;
-	margin: auto;
-}
-
-header img {
-	margin-top: 11.4px;
 }
 
 .headings {
@@ -24,10 +14,6 @@ hr {
 
 .content img {
 	max-width: 100%;
-}
-
-.container {
-	display: flex;
 }
 
 .featured img {
