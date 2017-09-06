@@ -1,27 +1,39 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
 
-.container {
+body {
 	max-width: 95%;
 	margin: auto;
+}
+
+header img {
+	margin-top: 11.4px;
 }
 
 .headings {
 	float: right;
 	overflow: auto;
+	color: #2d3c49;
+}
+
+hr {
+	border: 2px solid #7d97ad;
 }
 
 .content img {
 	max-width: 100%;
 }
 
-.portfolio {
+.container {
 	display: flex;
 }
 
+.featured {
+}
+
 .featured img {
-	margin: auto;
 	max-width: 100%;
 }
 
