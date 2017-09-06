@@ -1,20 +1,8 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
-}
-
-body {
-	max-width: 95%;
-	margin: auto;
-}
-
-header img {
-	margin-top: 11.4px;
 }
 
 .headings {
-	float: right;
-	overflow: auto;
 	color: #2d3c49;
 }
 
@@ -24,13 +12,6 @@ hr {
 
 .content img {
 	max-width: 100%;
-}
-
-.container {
-	display: flex;
-}
-
-.featured {
 }
 
 .featured img {
