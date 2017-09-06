@@ -6,10 +6,20 @@
 
 hr {
 	border: 2px solid #7d97ad;
+	margin-bottom: 2%;
+}
+
+.content {
+margin-bottom: 3%;
 }
 
 .portfolio {
 	color: #7d97ad;
+}
+
+.featured {
+	text-transform: uppercase;
+	text-align: center;
 }
 
 
