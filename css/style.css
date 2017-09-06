@@ -1,3 +1,7 @@
+* {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
 .headings {
 	float: right;
 	padding-top: 10px;
@@ -20,6 +24,11 @@ margin-bottom: 3%;
 .featured {
 	text-transform: uppercase;
 	text-align: center;
+}
+
+span,
+a {
+color: #2d3c49;
 }
 
 
