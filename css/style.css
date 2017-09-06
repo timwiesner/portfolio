@@ -1,10 +1,6 @@
-* {
-	box-sizing: border-box;
-}
-
 .headings {
 	float: right;
-	overflow: auto;
+	padding-top: 10px;
 	color: #2d3c49;
 }
 
@@ -12,12 +8,5 @@ hr {
 	border: 2px solid #7d97ad;
 }
 
-.content img {
-	max-width: 100%;
-}
-
-.featured img {
-	max-width: 100%;
-}
 
 
