@@ -15,7 +15,8 @@ hr {
 
 .content {
 	max-height: 350px;
-	overflow: auto;
+	overflow: hidden;
+	align-content: center;
 	margin-bottom: 3%;
 }
 
