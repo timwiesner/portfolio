@@ -14,7 +14,9 @@ hr {
 }
 
 .content {
-margin-bottom: 3%;
+	max-height: 350px;
+	overflow: auto;
+	margin-bottom: 3%;
 }
 
 .portfolio {
