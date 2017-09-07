@@ -24,14 +24,19 @@ hr {
 	color: #7d97ad;
 }
 
-.featured {
+.featured{
 	text-transform: uppercase;
 	text-align: center;
+	color: #2d3c49;
 }
 
-span,
-a {
-color: #2d3c49;
+.title{
+	margin-top: 10px;
+}
+
+.featured a {
+	text-transform: none;
+	font-size: .6em;
 }
 
 
