@@ -5,7 +5,12 @@
 .headings {
 	float: right;
 	padding-top: 10px;
+	text-align: right;
 	color: #2d3c49;
+}
+
+.headings span {
+	letter-spacing: 1.6px;
 }
 
 hr {
