@@ -2,9 +2,12 @@
 	font-family: 'Libre Franklin', sans-serif;
 }
 
+.container {
+	margin-top: 5px;
+}
+
 .headings {
 	float: right;
-	padding-top: 10px;
 	text-align: right;
 	color: #2d3c49;
 }
