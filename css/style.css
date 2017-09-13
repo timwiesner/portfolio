@@ -13,6 +13,7 @@
 .headings {
 	float: right;
 	text-align: right;
+	margin: auto;
 	color: #2d3c49;
 }
 
@@ -51,6 +52,3 @@ hr {
 .title {
 	margin: 8px 0px 0px 0px;
 }
-
-
-
