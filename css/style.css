@@ -37,15 +37,9 @@ hr {
 	color: #7d97ad;
 }
 
-.featured {
+.featured p {
 	text-transform: uppercase;
 	text-align: center;
-	color: #2d3c49;
-}
-
-.featured a {
-	text-transform: none;
-	font-size: .6em;
 	color: #2d3c49;
 }
 
