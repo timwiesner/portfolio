@@ -1,0 +1,54 @@
+@import "partials/customVariables";
+@import "../assets/stylesheets/bootstrap";
+@import "partials/custom";
+
+$primary-color: #02b3e4;
+$secondary-color: #2d3c49;
+$tertiary-color: #7d97ad;
+
+* {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+	margin-top: 20px;
+}
+
+.fa-code {
+	color: $primary-color;
+}
+
+.headings {
+	text-align: right;
+	color: $secondary-color;
+}
+
+.headings span {
+	letter-spacing: 1.6px;
+}
+
+hr {
+	border: 2px solid $tertiary-color;
+	margin-bottom: 2%;
+}
+
+.content {
+	max-height: 350px;
+	overflow: hidden;
+	align-content: center;
+	margin-bottom: 3%;
+}
+
+.portfolio {
+	color: $tertiary-color;
+}
+
+.featured p {
+	text-transform: uppercase;
+	text-align: center;
+	color: $secondary-color;
+}
+
+.title {
+	margin-top: 8px;
+}
