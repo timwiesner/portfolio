@@ -5803,13 +5803,11 @@ button.close {
 .container {
   margin-top: 20px; }
 
-.logo {
+.fa-code {
   color: #02b3e4; }
 
 .headings {
-  float: right;
   text-align: right;
-  margin: auto;
   color: #2d3c49; }
 
 .headings span {
@@ -5831,10 +5829,9 @@ hr {
 .featured p {
   text-transform: uppercase;
   text-align: center;
-  color: #2d3c49;
-  /*	font-size: .9em;*/ }
+  color: #2d3c49; }
 
 .title {
-  margin: 8px 0px 0px 0px; }
+  margin-top: 8px; }
 
 /*# sourceMappingURL=style.css.map */
