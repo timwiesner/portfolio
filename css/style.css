@@ -5800,11 +5800,9 @@ button.close {
 * {
   font-family: 'Libre Franklin', sans-serif; }
 
-.container {
-  margin-top: 20px; }
-
 .fa-code {
-  color: #02b3e4; }
+  color: #02b3e4;
+  padding-top: 12px; }
 
 .headings {
   text-align: right;
