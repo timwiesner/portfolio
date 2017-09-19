@@ -3,23 +3,29 @@
 
 .container {
   margin-top: 20px;
-  width: 960px; }
-  @media only screen and (max-width: 960px) {
+  width: 992px; }
+  @media only screen and (max-width: 992px) {
     .container {
       width: auto;
-      max-width: 960px; } }
+      max-width: 992px; } }
 
 .fa-code {
   color: #02b3e4; }
 
-.headings {
+.headings h1 {
   float: right;
   text-align: right;
   margin: auto;
-  color: #2d3c49; }
+  color: #2d3c49;
+  padding-top: 10px; }
 
-.headings span {
-  letter-spacing: 1.6px; }
+.headings h6 {
+  float: right;
+  text-align: right;
+  margin: auto;
+  color: #2d3c49;
+  letter-spacing: 1.6px;
+  clear: both; }
 
 hr {
   border: 2px solid #7d97ad;
@@ -37,9 +43,7 @@ hr {
 .featured p {
   text-transform: uppercase;
   text-align: center;
-  color: #2d3c49; }
-
-.title {
-  margin: 8px 0px 0px 0px; }
+  color: #2d3c49;
+  margin: 8px; }
 
 /*# sourceMappingURL=style.css.map */

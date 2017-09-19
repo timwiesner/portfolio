@@ -2,7 +2,14 @@ $primary-color: #02b3e4;
 $secondary-color: #2d3c49;
 $tertiary-color: #7d97ad;
 
-$content-width: 960px;
+$content-width: 992px;
+
+@mixin headings-style {
+  float: right;
+  text-align: right;
+  margin: auto;
+  color: $secondary-color;
+}
 
 * {
   font-family: 'Libre Franklin', sans-serif;
@@ -11,7 +18,7 @@ $content-width: 960px;
 .container {
   margin-top: 20px;
   width: $content-width;
-  @media only screen and (max-width: 960px) {
+  @media only screen and (max-width: 992px) {
     width: auto;
     max-width: $content-width;
   }
@@ -21,15 +28,15 @@ $content-width: 960px;
   color: $primary-color;
 }
 
-.headings {
-  float: right;
-  text-align: right;
-  margin: auto;
-  color: $secondary-color;
+.headings h1 {
+  @include headings-style;
+  padding-top: 10px;
 }
 
-.headings span {
+.headings h6 {
+  @include headings-style;
   letter-spacing: 1.6px;
+  clear: both;
 }
 
 hr {
@@ -52,8 +59,5 @@ hr {
   text-transform: uppercase;
   text-align: center;
   color: $secondary-color;
-}
-
-.title {
-  margin: 8px 0px 0px 0px;
+  margin: 8px;
 }
