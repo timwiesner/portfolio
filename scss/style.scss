@@ -2,12 +2,19 @@ $primary-color: #02b3e4;
 $secondary-color: #2d3c49;
 $tertiary-color: #7d97ad;
 
+$content-width: 960px;
+
 * {
   font-family: 'Libre Franklin', sans-serif;
 }
 
 .container {
   margin-top: 20px;
+  width: $content-width;
+  @media only screen and (max-width: 960px) {
+    width: auto;
+    max-width: $content-width;
+  }
 }
 
 .fa-code {

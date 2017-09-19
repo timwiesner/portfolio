@@ -2,7 +2,12 @@
   font-family: 'Libre Franklin', sans-serif; }
 
 .container {
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 960px; }
+  @media only screen and (max-width: 960px) {
+    .container {
+      width: auto;
+      max-width: 960px; } }
 
 .fa-code {
   color: #02b3e4; }
