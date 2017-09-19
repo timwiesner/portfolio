@@ -1,49 +1,37 @@
 * {
-  font-family: 'Libre Franklin', sans-serif;
-}
+  font-family: 'Libre Franklin', sans-serif; }
 
 .container {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .fa-code {
-  color: #02b3e4;
-}
+  color: #02b3e4; }
 
 .headings {
   float: right;
   text-align: right;
   margin: auto;
-  color: #2d3c49;
-}
+  color: #2d3c49; }
 
 .headings span {
-  letter-spacing: 1.6px;
-}
+  letter-spacing: 1.6px; }
 
 hr {
   border: 2px solid #7d97ad;
-  margin-bottom: 2%;
-}
+  margin-bottom: 2%; }
 
 .content {
   max-height: 350px;
   overflow: hidden;
   align-content: center;
-  margin-bottom: 3%;
-}
+  margin-bottom: 3%; }
 
 .portfolio {
-  color: #7d97ad;
-}
+  color: #7d97ad; }
 
-.featured p {
+.card-title {
   text-transform: uppercase;
   text-align: center;
-  color: #2d3c49;
-/*  font-size: .9em;*/
-}
+  color: #2d3c49; }
 
-.title {
-  margin: 8px 0px 0px 0px;
-}
+/*# sourceMappingURL=style.css.map */
