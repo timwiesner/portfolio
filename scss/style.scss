@@ -5,11 +5,12 @@ $tertiary-color: #7d97ad;
 $content-width: 992px;
 
 @mixin headings-style {
-  float: right;
-  text-align: right;
-  margin: auto;
   color: $secondary-color;
+  float: right;
+  white-space: nowrap;
+  text-transform: uppercase;
 }
+
 
 * {
   font-family: 'Libre Franklin', sans-serif;
@@ -24,10 +25,6 @@ $content-width: 992px;
   }
 }
 
-.headings {
-  height: 87px;
-}
-
 .headings h1 {
   @include headings-style;
   margin-top: 10px;
@@ -35,12 +32,13 @@ $content-width: 992px;
 
 .headings h6 {
   @include headings-style;
-  letter-spacing: 1.6px;
-  clear: right;
 }
 
 .fa-code {
   color: $primary-color;
+  @media (max-width: 413px) {
+    font-size: 60px;
+  }
 }
 
 

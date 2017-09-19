@@ -9,26 +9,24 @@
       width: auto;
       max-width: 992px; } }
 
-.headings {
-  height: 87px; }
-
 .headings h1 {
-  float: right;
-  text-align: right;
-  margin: auto;
   color: #2d3c49;
+  float: right;
+  white-space: nowrap;
+  text-transform: uppercase;
   margin-top: 10px; }
 
 .headings h6 {
-  float: right;
-  text-align: right;
-  margin: auto;
   color: #2d3c49;
-  letter-spacing: 1.6px;
-  clear: right; }
+  float: right;
+  white-space: nowrap;
+  text-transform: uppercase; }
 
 .fa-code {
   color: #02b3e4; }
+  @media (max-width: 413px) {
+    .fa-code {
+      font-size: 60px; } }
 
 hr {
   border: 2px solid #7d97ad;
