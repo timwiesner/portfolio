@@ -1,3 +1,7 @@
+$primary-color: #02b3e4;
+$secondary-color: #2d3c49;
+$tertiary-color: #7d97ad;
+
 * {
   font-family: 'Libre Franklin', sans-serif;
 }
@@ -7,14 +11,14 @@
 }
 
 .fa-code {
-  color: #02b3e4;
+  color: $primary-color;
 }
 
 .headings {
   float: right;
   text-align: right;
   margin: auto;
-  color: #2d3c49;
+  color: $secondary-color;
 }
 
 .headings span {
@@ -22,7 +26,7 @@
 }
 
 hr {
-  border: 2px solid #7d97ad;
+  border: 2px solid $tertiary-color;
   margin-bottom: 2%;
 }
 
@@ -34,11 +38,15 @@ hr {
 }
 
 .portfolio {
-  color: #7d97ad;
+  color: $tertiary-color;
 }
 
-.card-title {
+.featured p {
   text-transform: uppercase;
   text-align: center;
-  color: #2d3c49;
+  color: $secondary-color;
+}
+
+.title {
+  margin: 8px 0px 0px 0px;
 }

@@ -29,9 +29,12 @@ hr {
 .portfolio {
   color: #7d97ad; }
 
-.card-title {
+.featured p {
   text-transform: uppercase;
   text-align: center;
   color: #2d3c49; }
+
+.title {
+  margin: 8px 0px 0px 0px; }
 
 /*# sourceMappingURL=style.css.map */
