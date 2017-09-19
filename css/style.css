@@ -12,21 +12,23 @@
 .headings {
   height: 87px; }
 
-.fa-code {
-  color: #02b3e4; }
-
-.name {
+.headings h1 {
   float: right;
   text-align: right;
+  margin: auto;
   color: #2d3c49;
   margin-top: 10px; }
 
-.title {
+.headings h6 {
   float: right;
   text-align: right;
+  margin: auto;
   color: #2d3c49;
   letter-spacing: 1.6px;
   clear: right; }
+
+.fa-code {
+  color: #02b3e4; }
 
 hr {
   border: 2px solid #7d97ad;

@@ -7,7 +7,7 @@ $content-width: 992px;
 @mixin headings-style {
   float: right;
   text-align: right;
-  // margin: auto;
+  margin: auto;
   color: $secondary-color;
 }
 
@@ -28,20 +28,21 @@ $content-width: 992px;
   height: 87px;
 }
 
-.fa-code {
-  color: $primary-color;
-}
-
-.name {
+.headings h1 {
   @include headings-style;
   margin-top: 10px;
 }
 
-.title {
+.headings h6 {
   @include headings-style;
   letter-spacing: 1.6px;
   clear: right;
 }
+
+.fa-code {
+  color: $primary-color;
+}
+
 
 hr {
   border: 2px solid $tertiary-color;
