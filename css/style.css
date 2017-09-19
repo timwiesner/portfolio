@@ -9,23 +9,24 @@
       width: auto;
       max-width: 992px; } }
 
+.headings {
+  height: 87px; }
+
 .fa-code {
   color: #02b3e4; }
 
-.headings h1 {
+.name {
   float: right;
   text-align: right;
-  margin: auto;
   color: #2d3c49;
-  padding-top: 10px; }
+  margin-top: 10px; }
 
-.headings h6 {
+.title {
   float: right;
   text-align: right;
-  margin: auto;
   color: #2d3c49;
   letter-spacing: 1.6px;
-  clear: both; }
+  clear: right; }
 
 hr {
   border: 2px solid #7d97ad;
