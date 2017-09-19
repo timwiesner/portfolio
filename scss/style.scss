@@ -1,0 +1,49 @@
+* {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.fa-code {
+  color: #02b3e4;
+}
+
+.headings {
+  float: right;
+  text-align: right;
+  margin: auto;
+  color: #2d3c49;
+}
+
+.headings span {
+  letter-spacing: 1.6px;
+}
+
+hr {
+  border: 2px solid #7d97ad;
+  margin-bottom: 2%;
+}
+
+.content {
+  max-height: 350px;
+  overflow: hidden;
+  align-content: center;
+  margin-bottom: 3%;
+}
+
+.portfolio {
+  color: #7d97ad;
+}
+
+.featured p {
+  text-transform: uppercase;
+  text-align: center;
+  color: #2d3c49;
+/*  font-size: .9em;*/
+}
+
+.title {
+  margin: 8px 0px 0px 0px;
+}
