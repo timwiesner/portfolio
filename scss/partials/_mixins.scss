@@ -5,8 +5,8 @@
   text-transform: uppercase;
 }
 
-// @mixin small-screens() {
-//   @media only screen and (max-width: 576px) {
-
-//   }
-// }
+@mixin small-screens() {
+  @media only screen and (max-width: 576px) {
+		@content;
+  }
+}
