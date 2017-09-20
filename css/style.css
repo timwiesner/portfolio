@@ -9,24 +9,24 @@
       width: auto;
       max-width: 992px; } }
 
-.headings h1 {
+.name {
   color: #2d3c49;
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
   margin-top: 10px; }
   @media only screen and (max-width: 576px) {
-    .headings h1 {
+    .name {
       font-size: 32px; } }
 
-.headings h6 {
+.job-title {
   color: #2d3c49;
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
   clear: both; }
   @media only screen and (max-width: 576px) {
-    .headings h6 {
+    .job-title {
       font-size: 12px; } }
 
 .fa-code {

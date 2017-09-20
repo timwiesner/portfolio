@@ -14,7 +14,7 @@
   }
 }
 
-.headings h1 {
+.name {
   @include headings-style;
   margin-top: 10px;
   @include small-screens {
@@ -22,7 +22,7 @@
   }
 }
 
-.headings h6 {
+.job-title {
   @include headings-style;
   clear: both;
   @include small-screens {
