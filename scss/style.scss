@@ -1,23 +1,5 @@
-$primary-color: #02b3e4;
-$secondary-color: #2d3c49;
-$tertiary-color: #7d97ad;
-
-$content-width: 992px;
-
-@mixin headings-style {
-  color: $secondary-color;
-  float: right;
-  white-space: nowrap;
-  text-transform: uppercase;
-  // display: inline-block;
-}
-
-// @mixin small-screens() {
-//   @media only screen and (max-width: 576px) {
-
-//   }
-// }
-
+@import "partials/variables";
+@import "partials/mixins";
 
 * {
   font-family: 'Libre Franklin', sans-serif;
@@ -50,9 +32,11 @@ $content-width: 992px;
 
 .fa-code {
   color: $primary-color;
+  margin-right: -20px;
+
   @media (max-width: 576px) {
     font-size: 60px;
-    margin-right: -20px;
+    // margin-right: -20px;
   }
 }
 
