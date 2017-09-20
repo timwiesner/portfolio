@@ -1,5 +1,6 @@
 @import "partials/variables";
 @import "partials/mixins";
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,300');
 
 * {
   font-family: 'Libre Franklin', sans-serif;
@@ -40,7 +41,7 @@
 
 hr {
   border: 2px solid $tertiary-color;
-  margin-bottom: 2%;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -49,8 +50,9 @@ hr {
   margin-bottom: 3%;
 }
 
-.portfolio {
+.portfolio h3 {
   color: $tertiary-color;
+  font-weight: 300;
 }
 
 .featured p {

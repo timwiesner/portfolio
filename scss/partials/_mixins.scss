@@ -1,5 +1,6 @@
 @mixin headings-style {
   color: $secondary-color;
+  font-weight: 100;
   float: right;
   white-space: nowrap;
   text-transform: uppercase;

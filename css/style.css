@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:100,300");
 * {
   font-family: 'Libre Franklin', sans-serif; }
 
@@ -11,6 +12,7 @@
 
 .name {
   color: #2d3c49;
+  font-weight: 100;
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
@@ -21,6 +23,7 @@
 
 .job-title {
   color: #2d3c49;
+  font-weight: 100;
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
@@ -38,15 +41,16 @@
 
 hr {
   border: 2px solid #7d97ad;
-  margin-bottom: 2%; }
+  margin-bottom: 20px; }
 
 .content {
   max-height: 350px;
   overflow: hidden;
   margin-bottom: 3%; }
 
-.portfolio {
-  color: #7d97ad; }
+.portfolio h3 {
+  color: #7d97ad;
+  font-weight: 300; }
 
 .featured p {
   text-transform: uppercase;
