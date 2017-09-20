@@ -14,19 +14,29 @@
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
+  display: inline-block;
   margin-top: 10px; }
+  @media (max-width: 576px) {
+    .headings h1 {
+      font-size: 30px; } }
 
 .headings h6 {
   color: #2d3c49;
   float: right;
   white-space: nowrap;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: inline-block;
+  clear: both; }
+  @media (max-width: 576px) {
+    .headings h6 {
+      font-size: 10px; } }
 
 .fa-code {
   color: #02b3e4; }
-  @media (max-width: 413px) {
+  @media (max-width: 576px) {
     .fa-code {
-      font-size: 60px; } }
+      font-size: 60px;
+      margin-right: -20px; } }
 
 hr {
   border: 2px solid #7d97ad;

@@ -9,6 +9,7 @@ $content-width: 992px;
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
+  display: inline-block;
 }
 
 
@@ -28,18 +29,30 @@ $content-width: 992px;
 .headings h1 {
   @include headings-style;
   margin-top: 10px;
+  @media (max-width: 576px) {
+    font-size: 30px;
+  }
 }
 
 .headings h6 {
   @include headings-style;
+  clear: both;
+  @media (max-width: 576px) {
+    font-size: 10px;
+  }
 }
 
 .fa-code {
   color: $primary-color;
-  @media (max-width: 413px) {
+  @media (max-width: 576px) {
     font-size: 60px;
+    margin-right: -20px;
   }
 }
+
+// .code {
+//   max-width: 80px;
+// }
 
 
 hr {
