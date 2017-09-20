@@ -12,6 +12,12 @@ $content-width: 992px;
   display: inline-block;
 }
 
+// @mixin small-screens() {
+//   @media only screen and (max-width: 576px) {
+
+//   }
+// }
+
 
 * {
   font-family: 'Libre Franklin', sans-serif;
@@ -50,11 +56,6 @@ $content-width: 992px;
   }
 }
 
-// .code {
-//   max-width: 80px;
-// }
-
-
 hr {
   border: 2px solid $tertiary-color;
   margin-bottom: 2%;
@@ -65,10 +66,6 @@ hr {
   overflow: hidden;
   // align-content: center;
   margin-bottom: 3%;
-}
-
-.background {
-
 }
 
 .portfolio {
