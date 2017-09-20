@@ -14,22 +14,20 @@
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
-  display: inline-block;
   margin-top: 10px; }
   @media (max-width: 576px) {
     .headings h1 {
-      font-size: 30px; } }
+      font-size: 32px; } }
 
 .headings h6 {
   color: #2d3c49;
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
-  display: inline-block;
   clear: both; }
   @media (max-width: 576px) {
     .headings h6 {
-      font-size: 10px; } }
+      font-size: 12px; } }
 
 .fa-code {
   color: #02b3e4; }
