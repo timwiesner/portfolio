@@ -27,7 +27,8 @@
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
-  clear: both; }
+  clear: both;
+  font-weight: bold; }
   @media only screen and (max-width: 576px) {
     .job-title {
       font-size: 12px; } }
@@ -58,7 +59,21 @@
   text-align: center;
   color: #2d3c49;
   margin: 8px;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 30px; }
+
+.in-progress {
+  opacity: .4; }
+
+.overlay {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  @media only screen and (max-width: 576px) {
+    .overlay {
+      margin-top: -25px; } }
 
 .footer-name {
   text-align: center; }

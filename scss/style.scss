@@ -6,6 +6,7 @@
   font-family: 'Libre Franklin', sans-serif;
 }
 
+// === Bootstrap Container ===
 .container {
   margin-top: 20px;
   width: $content-width;
@@ -15,6 +16,7 @@
   }
 }
 
+// === Header ===
 .name {
   @include headings-style;
   margin-top: 10px;
@@ -29,6 +31,7 @@
   @include small-screens {
     font-size: 12px;
   }
+  font-weight: bold;
 }
 
 .fa-code {
@@ -62,6 +65,22 @@
   color: $secondary-color;
   margin: 8px;
   font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.in-progress {
+  opacity: .4;
+}
+
+.overlay {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @include small-screens {
+    margin-top: -25px;
+  }
 }
 
 .footer-name {
