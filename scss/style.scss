@@ -70,7 +70,7 @@
   margin-bottom: 30px;
 }
 
-.in-progress {
+.opaque {
   opacity: .4;
 }
 
@@ -85,11 +85,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   @include small-screens {
-    margin-top: -30px;
+    // margin-top: -30px;
     font-size: 16px;
   }
   @include extra-small-screens {
-    margin-top: -10px;
+    // margin-top: -10px;
   }
 }
 
