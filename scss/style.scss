@@ -69,11 +69,13 @@
   font-weight: bold;
   color: $secondary-color;
   margin: 8px 0px 30px 0px;
+  @include small-screens {
+    font-size: 18px;
+  }
 }
 
 .in-progress {
   position: relative;
-  text-align: center;
 }
 
 .opaque {
@@ -84,14 +86,15 @@
   color: $primary-color;
   background: $secondary-color;
   text-transform: uppercase;
+  text-align: center;
   padding: 5px;
   font-size: 40px;
+  width: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -70%);
+  top: 40%;
+  left: 0;
+  // transform: translate(-50%, -50%);
   @include small-screens {
-    margin-top: -30px;
     font-size: 16px;
   }
 }
