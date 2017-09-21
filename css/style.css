@@ -13,7 +13,7 @@
 .fa-code {
   color: #02b3e4;
   margin-right: -20px; }
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 575px) {
     .fa-code {
       font-size: 60px; } }
 
@@ -24,7 +24,7 @@
   white-space: nowrap;
   text-transform: uppercase;
   margin-top: 10px; }
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 575px) {
     .name {
       font-size: 32px; } }
 
@@ -36,7 +36,7 @@
   text-transform: uppercase;
   clear: both;
   font-weight: bold; }
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 575px) {
     .job-title {
       font-size: 12px; } }
 
@@ -75,7 +75,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 575px) {
     .in-progress-overlay {
       margin-top: -30px;
       font-size: 16px; } }
