@@ -10,6 +10,13 @@
       width: auto;
       max-width: 992px; } }
 
+.fa-code {
+  color: #02b3e4;
+  margin-right: -20px; }
+  @media only screen and (max-width: 576px) {
+    .fa-code {
+      font-size: 60px; } }
+
 .name {
   color: #2d3c49;
   font-weight: 100;
@@ -32,13 +39,6 @@
   @media only screen and (max-width: 576px) {
     .job-title {
       font-size: 12px; } }
-
-.fa-code {
-  color: #02b3e4;
-  margin-right: -20px; }
-  @media only screen and (max-width: 576px) {
-    .fa-code {
-      font-size: 60px; } }
 
 .break {
   border: 2px solid #7d97ad;

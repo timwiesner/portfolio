@@ -17,6 +17,14 @@
 }
 
 // === Header ===
+.fa-code {
+  color: $primary-color;
+  margin-right: -20px;
+  @include small-screens {
+    font-size: 60px;
+  }
+}
+
 .name {
   @include headings-style;
   margin-top: 10px;
@@ -34,25 +42,19 @@
   font-weight: bold;
 }
 
-.fa-code {
-  color: $primary-color;
-  margin-right: -20px;
-  @include small-screens {
-    font-size: 60px;
-  }
-}
-
 .break {
   border: 2px solid $tertiary-color;
   margin-bottom: 20px;
 }
 
+// === Main ===
 .background {
   max-height: 325px;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
+// === Portfolio ===
 .portfolio-header {
   color: $tertiary-color;
   font-weight: 300;
@@ -83,6 +85,7 @@
   }
 }
 
+// === Footer ===
 .footer-name {
   text-align: center;
 }
