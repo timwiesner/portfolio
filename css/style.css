@@ -66,14 +66,19 @@
   opacity: .4; }
 
 .in-progress-overlay {
+  color: #02b3e4;
+  background: #2d3c49;
   text-transform: uppercase;
+  padding: 5px;
+  font-size: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
   @media only screen and (max-width: 576px) {
     .in-progress-overlay {
-      margin-top: -25px; } }
+      margin-top: -30px;
+      font-size: 19px; } }
 
 .footer-name {
   text-align: center; }
