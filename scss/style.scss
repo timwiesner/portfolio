@@ -27,7 +27,7 @@
 
 .name {
   @include headings-style;
-  margin-top: 10px;
+  margin-top: 15px;
   @include small-screens {
     font-size: 32px;
   }
