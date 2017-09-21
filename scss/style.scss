@@ -74,6 +74,10 @@
   }
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .in-progress {
   position: relative;
 }
@@ -93,7 +97,6 @@
   position: absolute;
   top: 40%;
   left: 0;
-  // transform: translate(-50%, -50%);
   @include small-screens {
     font-size: 16px;
   }
