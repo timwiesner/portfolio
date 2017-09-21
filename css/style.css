@@ -65,14 +65,14 @@
 .in-progress {
   opacity: .4; }
 
-.overlay {
+.in-progress-overlay {
   text-transform: uppercase;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
   @media only screen and (max-width: 576px) {
-    .overlay {
+    .in-progress-overlay {
       margin-top: -25px; } }
 
 .footer-name {
