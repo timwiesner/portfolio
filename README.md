@@ -6,3 +6,5 @@ Refactor notes:
 2. Alter SCSS compiler to expanded, placing closing brackets on new lines
 3. Add target "blank" so links open in new tabs, not windows
 4. TODO: Use srcset to optimize images for various screen sizes
+
+![alt text](https://github.com/timwiesner/portfolio/blob/master/images/snapshot.png "Portfolio Screenshot")
