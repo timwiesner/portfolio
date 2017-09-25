@@ -1,5 +1,5 @@
 # portfolio
-Welcome to my personal portfolio website
+Welcome to my personal portfolio website.
 
 Refactor notes:
 1. Update Bootstrap layout with appropriate .row and .col divs
