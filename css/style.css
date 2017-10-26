@@ -114,6 +114,10 @@ a:hover {
   text-align: center;
 }
 
+.footer-links {
+  list-style-type: none;
+}
+
 .fa-github {
   color: #25292e;
 }
