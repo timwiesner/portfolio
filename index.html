@@ -12,102 +12,98 @@
 <body>
 
 	<div class="container">
-
-		<header class="row">
-			<div class="col">
-				<i class="fa fa-code fa-5x" aria-hidden="true"></i>
-			</div>
+		<header>
+			<div class="row">
+				<div class="col">
+					<i class="fa fa-code fa-5x" aria-hidden="true"></i>
+				</div>
 			<div class="col">
 				<h1 class="name">Tim Wiesner</h1>
 				<h6 class="job-title">JavaScript Jedi in Training</h6>
 			</div>
 		</header>
 
-		<main class="row">
-			<div class="col">
-				<hr class="break">
+		<main>
+			<hr class="break">
 
+			<div class="row">
+				<div class="col background">
+					<img class="img-fluid"
+					srcset="
+					images/background-480w.jpg 480w,
+					images/background-800w.jpg 800w"
+					sizes="(max-width: 320px) 290px,
+					(max-width: 480px) 450px,
+					800px"
+					src="images/background-800w.jpg" alt="computer">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+
+					<h3 class="portfolio-header">Featured Work</h3>
 
 					<div class="row">
-						<div class="col background">
-							<img class="img-fluid"
-							srcset="
-							images/background-480w.jpg 480w,
-							images/background-800w.jpg 800w"
-							sizes="(max-width: 320px) 290px,
-							(max-width: 480px) 450px,
-							800px"
-							src="images/background-800w.jpg" alt="computer">
+
+						<div class="col-6 col-sm-4">
+							<a href="https://github.com/timwiesner/memory-game" target="_blank">
+								<img class="img-fluid"
+								srcset="
+								images/card-480w.jpg 480w,
+								images/card-800w.jpg 800w"
+								sizes="(max-width: 320px) 290px,
+								(max-width: 480px) 450px,
+								800px"
+								src="images/card-800w.jpg" alt="cards">
+								<p class="portfolio-title">Memory Game</p>
+							</a>
 						</div>
-					</div>
 
-					<div class="row">
-						<div class="col portfolio">
+						<div class="col-6 col-sm-4">
+							<a href="https://github.com/timwiesner/movie-trailers" target="_blank">
+								<img class="img-fluid"
+								srcset="
+								images/camera-480w.jpg 480w,
+								images/camera-800w.jpg 800w"
+								sizes="(max-width: 320px) 290px,
+								(max-width: 480px) 450px,
+								800px"
+								src="images/camera-800w.jpg" alt="camera">
+								<p class="portfolio-title">Film Trailers</p>
+							</a>
+						</div>
 
-							<h3 class="portfolio-header">Featured Work</h3>
+						<div class="col-6 col-sm-4">
+							<a href="https://github.com/timwiesner/fill-in-the-blanks" target="_blank">
+								<img class="img-fluid"
+								srcset="
+								images/pencil-480w.jpg 480w,
+								images/pencil-800w.jpg 800w"
+								sizes="(max-width: 320px) 290px,
+								(max-width: 480px) 450px,
+								800px"
+								src="images/pencil-800w.jpg" alt="pencil">
+								<p class="portfolio-title">Blank Filler</p>
+							</a>
+						</div>
 
-							<div class="row">
-
-								<div class="col-6 col-sm-4">
-									<a href="https://github.com/timwiesner/memory-game" target="_blank">
-										<img class="img-fluid"
-										srcset="
-										images/card-480w.jpg 480w,
-										images/card-800w.jpg 800w"
-										sizes="(max-width: 320px) 290px,
-										(max-width: 480px) 450px,
-										800px"
-										src="images/card-800w.jpg" alt="cards">
-										<p class="portfolio-title">Memory Game</p>
-									</a>
-								</div>
-
-								<div class="col-6 col-sm-4">
-									<a href="https://github.com/timwiesner/movie-trailers" target="_blank">
-										<img class="img-fluid"
-										srcset="
-										images/camera-480w.jpg 480w,
-										images/camera-800w.jpg 800w"
-										sizes="(max-width: 320px) 290px,
-										(max-width: 480px) 450px,
-										800px"
-										src="images/camera-800w.jpg" alt="camera">
-										<p class="portfolio-title">Film Trailers</p>
-									</a>
-								</div>
-
-								<div class="col-6 col-sm-4">
-									<a href="https://github.com/timwiesner/fill-in-the-blanks" target="_blank">
-										<img class="img-fluid"
-										srcset="
-										images/pencil-480w.jpg 480w,
-										images/pencil-800w.jpg 800w"
-										sizes="(max-width: 320px) 290px,
-										(max-width: 480px) 450px,
-										800px"
-										src="images/pencil-800w.jpg" alt="pencil">
-										<p class="portfolio-title">Blank Filler</p>
-									</a>
-								</div>
-
-								<div class="col-6 col-sm-12">
-									<div class="in-progress">
-										<img class="img-fluid opaque"
-										srcset="
-										images/pho-480w.jpg 480w,
-										images/pho-800w.jpg 800w"
-										sizes="(max-width: 320px) 290px,
-										(max-width: 480px) 450px,
-										800px"
-										src="images/pho-800w.jpg" alt="pho">
-										<div class="in-progress-overlay">Coming Soon</div>
-									</div>
-									<p class="portfolio-title">Pho Special</p>
-								</div>
+						<div class="col-6 col-sm-12">
+							<div class="in-progress">
+								<img class="img-fluid opaque"
+								srcset="
+								images/pho-480w.jpg 480w,
+								images/pho-800w.jpg 800w"
+								sizes="(max-width: 320px) 290px,
+								(max-width: 480px) 450px,
+								800px"
+								src="images/pho-800w.jpg" alt="pho">
+								<div class="in-progress-overlay">Coming Soon</div>
 							</div>
+							<p class="portfolio-title">Pho Special</p>
 						</div>
 					</div>
-				</main>
+				</div>
 			</div>
 		</main>
 
