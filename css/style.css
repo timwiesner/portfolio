@@ -114,13 +114,17 @@ a:hover {
   text-align: center;
 }
 
-.footer-links {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 li {
+  display: inline;
+}
+
+li p {
   display: inline;
 }
 
