@@ -124,6 +124,10 @@ li {
   display: inline;
 }
 
+li a {
+  margin: 3px;
+}
+
 li p {
   display: inline;
 }
