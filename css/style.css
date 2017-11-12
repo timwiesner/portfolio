@@ -1,23 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Franklin:100,300");
 * {
-  font-family: 'Libre Franklin', sans-serif;
-}
+  font-family: 'Libre Franklin', sans-serif; }
 
 .container {
   margin-top: 20px;
-  width: 992px;
-}
-@media only screen and (max-width: 992px) {
-  .container {
-    width: auto;
-    max-width: 992px;
-  }
-}
+  width: 992px; }
+  @media only screen and (max-width: 992px) {
+    .container {
+      width: auto;
+      max-width: 992px; } }
 
 .fa-code {
   color: #02b3e4;
-  margin-right: -30px;
-}
+  margin-right: -30px; }
 
 .name {
   color: #2d3c49;
@@ -25,14 +20,11 @@
   float: right;
   white-space: nowrap;
   text-transform: uppercase;
-  margin-top: 10px;
-}
-@media only screen and (max-width: 575px) {
-  .name {
-    font-size: 30px;
-    margin-top: 15px;
-  }
-}
+  margin-top: 10px; }
+  @media only screen and (max-width: 575px) {
+    .name {
+      font-size: 30px;
+      margin-top: 15px; } }
 
 .job-title {
   color: #2d3c49;
@@ -41,30 +33,24 @@
   white-space: nowrap;
   text-transform: uppercase;
   clear: both;
-  font-weight: bold;
-}
-@media only screen and (max-width: 575px) {
-  .job-title {
-    font-size: 12px;
-  }
-}
+  font-weight: bold; }
+  @media only screen and (max-width: 575px) {
+    .job-title {
+      font-size: 12px; } }
 
 .break {
   border: 2px solid #7d97ad;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .background {
   max-height: 325px;
   overflow: hidden;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 .portfolio-header {
   color: #7d97ad;
   font-weight: 300;
-  margin-left: 5px;
-}
+  margin-left: 5px; }
 
 .portfolio-title {
   text-transform: uppercase;
@@ -72,25 +58,19 @@
   font-size: 24px;
   font-weight: bold;
   color: #2d3c49;
-  margin: 8px 0px 15px 0px;
-}
-@media only screen and (max-width: 575px) {
-  .portfolio-title {
-    font-size: 18px;
-  }
-}
+  margin: 8px 0px 15px 0px; }
+  @media only screen and (max-width: 575px) {
+    .portfolio-title {
+      font-size: 18px; } }
 
 a:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .in-progress {
-  position: relative;
-}
+  position: relative; }
 
 .opaque {
-  opacity: .4;
-}
+  opacity: .4; }
 
 .in-progress-overlay {
   color: #02b3e4;
@@ -102,46 +82,38 @@ a:hover {
   width: 100%;
   position: absolute;
   top: 40%;
-  left: 0;
-}
-@media only screen and (max-width: 575px) {
-  .in-progress-overlay {
-    font-size: 16px;
-  }
-}
+  left: 0; }
+  @media only screen and (max-width: 575px) {
+    .in-progress-overlay {
+      font-size: 16px; } }
 
 .footer {
-  text-align: center;
-}
+  text-align: center; }
+
+.footer p {
+  margin-bottom: 4px; }
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 li {
-  display: inline;
-}
+  display: inline; }
 
 li a {
-  margin: 3px;
-}
+  margin: 3px; }
 
 li p {
-  display: inline;
-}
+  display: inline; }
 
 .fa-github {
-  color: #25292e;
-}
+  color: #25292e; }
 
 .fa-linkedin {
-  color: #0077b5;
-}
+  color: #0077b5; }
 
 .dummy {
-  display: none;
-}
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
