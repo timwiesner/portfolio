@@ -75,33 +75,14 @@ a:hover {
   text-decoration: none;
 }
 
-.in-progress {
-  position: relative;
-}
-
-.opaque {
-  opacity: .4;
-}
-
-.in-progress-overlay {
-  color: $primary-color;
-  background: $secondary-color;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 5px;
-  font-size: 40px;
-  width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 0;
-  @include small-screens {
-    font-size: 16px;
-  }
+.bottomB {
+  margin-top: 0px;
 }
 
 // === Footer ===
 .footer {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .footer p {

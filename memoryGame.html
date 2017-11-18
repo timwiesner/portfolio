@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Memory Game</title>
+		<link rel="stylesheet" href="css/memory.css">
+		<link href="https://fonts.googleapis.com/css?family=Nunito:300" rel="stylesheet">
+		<script src="https://use.fontawesome.com/53faeb8ac8.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Memory Game</h1>
+			</header>
+
+			<section class="score-panel">
+				<ul class="stars">
+					<li><i class="fa fa-star"></i></li>
+      		<li><i class="fa fa-star"></i></li>
+      		<li><i class="fa fa-star"></i></li>
+				</ul>
+
+				<span class="moves">0 Moves</span>
+				<span class="timer">0 seconds</span>
+				<div class="restart">
+					<i class="fa fa-refresh"></i>
+				</div>
+			</section>
+		</div>
+
+		<div class="board">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+
+
+		<div id="myModal" class="modal">
+  		<div class="modal-content">
+    		<span class="close">&times;</span>
+    		<p>Congratulations! You won the game!</p>
+    		<p>Time: <span class="fTime"></span></p>
+    		<p>Moves: <span class="fMoves"></span></p>
+    		<p>Stars: <span class="fStars"></span></p>
+    		<hr>
+    		<p>Play again?<i class="fa fa-play"></i></p>
+  		</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

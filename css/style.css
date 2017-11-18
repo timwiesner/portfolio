@@ -66,29 +66,12 @@
 a:hover {
   text-decoration: none; }
 
-.in-progress {
-  position: relative; }
-
-.opaque {
-  opacity: .4; }
-
-.in-progress-overlay {
-  color: #02b3e4;
-  background: #2d3c49;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 5px;
-  font-size: 40px;
-  width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 0; }
-  @media only screen and (max-width: 575px) {
-    .in-progress-overlay {
-      font-size: 16px; } }
+.bottomB {
+  margin-top: 0px; }
 
 .footer {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
 .footer p {
   margin-bottom: 4px; }
